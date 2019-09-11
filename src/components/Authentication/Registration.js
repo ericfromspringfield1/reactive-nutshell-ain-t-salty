@@ -11,7 +11,7 @@ class Registration extends Component {
         password: "",
         confirmPassword: ""
     }
-
+ 
 
 
     // Update state whenever an input field is edited

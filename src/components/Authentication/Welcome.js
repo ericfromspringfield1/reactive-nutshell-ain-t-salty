@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
-import "../Nutshell.css"
+import "../Capstone.css"
 
 
 class Welcome extends Component {
@@ -8,8 +8,8 @@ class Welcome extends Component {
         return (
             <>
                 <div className="card">
-                    <h1 className ="center">Welcome to Nutshell</h1>
-                    <p className ="center">An Interactive Dashboard Application</p>
+                    <h1 className ="center">Welcome to your standUp jyrny jyrnyL</h1>
+                    <p className ="center">Document The Funny</p>
                 </div>
                 <div className="welcome--btns">
                     <Link to="/Registration"><button className="register--btn">Register New Account</button></Link>
@@ -17,7 +17,7 @@ class Welcome extends Component {
                 </div>
 
                 <picture>
-                    <img src={('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKnbaMgG4nsi4XyGxPf2HgFpPIiGvrmQCqI3sfSYIlCSvH6UB_')} alt="My Dog" />
+                    <img src={require('./charlieChaplin.png')} alt="Hee Hee" />
                 </picture>
             </>
         );

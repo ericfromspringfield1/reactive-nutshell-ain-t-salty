@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "username": "Seinfeld",
+      "email": "DrankCoffee@cars.com",
+      "password": "123",
+      "id": 1
+    }
+  ],
+  "gigs": [
+    {
+      "gig": "Charles Moore Jr Show",
+      "date": "2019-09-05",
+      "id": 1,
+      "userId": 1
+    }
+  ],
+  "venues": [
+    {
+      "venueName": "",
+      "city": "",
+      "state": "",
+      "userId": 0,
+      "capacity": "",
+      "id": 0
+    }
+  ],
+  "audiences": [
+    {
+      "audienceName": "",
+      "id": 0
+    }
+  ],
+  "spot": [
+    {
+      "spotName": "",
+      "id": 0
+    }
+  ]
+}
